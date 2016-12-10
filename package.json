@@ -1,10 +1,9 @@
 {
   "name": "atom-edit-in-new-tab",
   "main": "./lib/atom-edit-in-new-tab",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An atom package for editing the current text selection in a new pane/tab",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "atom-edit-in-new-tab:edit"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
