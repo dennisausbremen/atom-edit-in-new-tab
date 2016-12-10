@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Edit in new tab",
+        "command": "atom-edit-in-new-tab:edit"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Edit in new tab",
+          "submenu": [
+            {
+              "label": "Edit",
+              "command": "atom-edit-in-new-tab:edit"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
