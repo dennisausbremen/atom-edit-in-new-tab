@@ -26,9 +26,13 @@ Install `atom-edit-in-new-tab` from Atom's [Package Manager](http://flight-manua
 ### Options
 
 | Option           | Values              | Description                                                                                                                                          |
-| ------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Auto-Indent Selection`     | `true` or `false`   | Automatically indent selected text in new tab. **Default: `true`.**                   |
+| ------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |                 |
 | `Cut Selection` | `true` or `false`   | Cut selection in original document, instead of just copying it. **Default: `false`.**
+| `Select` | `true` or `false`   | Selects the newly added text. **Default: `false`.**
+| `Auto-indent` | `true` or `false`   | Indents all inserted text appropriately. **Default: `false`.**
+| `Auto-indent newline` | `true` or `false`   | Indent newline appropriately. **Default: `false`.**
+| `Auto-decrease indent` | `true` or `false`   | Decreases indent level appropriately (e.g. when a closing bracket is inserted). **Default: `false`.**
+| `Normalize line endings` | `true` or `false`   | Normalize line endings after insert. **Default: `true`.**
 
 
 #### KUDOS
